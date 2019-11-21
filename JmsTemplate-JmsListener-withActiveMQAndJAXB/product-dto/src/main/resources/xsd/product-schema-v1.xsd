@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://sandiso.com/orders">
+	<element name="product">
+		<complexType>
+			<sequence>
+				<element name="productName" type="string" />
+			</sequence>
+			<attribute name="productId" type="string" use="required" />
+		</complexType>
+	</element>
+</schema>
